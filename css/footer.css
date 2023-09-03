@@ -1,0 +1,192 @@
+footer{
+    width: 100%;
+    height: 800px;
+    padding-top: 1700px;
+}
+
+footer .contactus{
+    width: 100%;
+    /* height:538px; */
+    background-color: rgb(241,245,248);
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* gap: 10px; */
+    padding-right: 100px;
+
+}
+
+
+footer .contactus .inputbox{
+    width: 79%;
+    /* width: 558px; */
+    /* height: 300px ; */
+    /* box-shadow: 5px 5px 10px; */
+    filter: drop-shadow(5px 5px 10px gray);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+    background-color: white;
+ 
+}
+
+
+footer .contactus .inputbox  h2{
+    margin-top: 15px;
+    color: #617d98;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+footer .contactus .inputbox input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: hidden;
+    background-color: rgb(241,245,248);
+    padding: 20px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.inputbox textarea{
+    width: 90%;
+    height: 100px;
+    border-radius: 6px;
+    border: hidden;
+    background-color: rgb(241,245,248);
+    padding: 10px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.inputbox>textarea::placeholder{
+    letter-spacing: 3px;
+    color: black;
+}
+
+.inputbox input::placeholder{
+    letter-spacing: 3px;
+    color: black;
+    text-transform: capitalize;
+
+}
+
+
+.inputbox button{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: hidden;
+    border-radius:0px 0px 6px 6px ;
+    text-transform: uppercase;
+    background-color: #678e3e;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.inputbox button:hover{
+    background-color: rgb(190,237,140);
+    color: #678e3e;
+}
+
+footer .contactus .footi{
+    width: 100%;
+    height:inherit;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+
+}
+
+.contactus .footi h4{
+    display: flex;
+    flex-direction: column;
+    color: #678e3e;
+    margin-top: 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+    gap: 11px;
+
+}
+.contactus .footi h4 i{
+    display: flex;
+    gap: 10px;
+}
+
+.contactus .footi address{
+    display: flex;
+    flex-direction: column;  
+    width: 190px;  
+}
+
+.contactus .footi p{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    width: fit-content;
+}
+
+
+/* new sec */
+
+footer .end{
+    width: 100%;
+    /* width: 364px; */
+    height: 212px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+footer .end .logoo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+    /* transform: none; */
+}
+
+footer .end .logoo i{
+    font-size: 25px;
+    transition: all 300ms linear;
+
+
+}
+
+footer .end .logoo i:hover{
+    color: #678e3e;
+    cursor: pointer;
+}
+
+
+footer .end .bye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
+
+footer .end .bye span{
+    color: #678e3e;
+}

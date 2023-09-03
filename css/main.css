@@ -1,0 +1,462 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main span{
+    width: 100%;
+    display: block;
+    height: 6px;
+    background-image: linear-gradient(to left,#70913f,rgb(231,184,72),#70913f);
+}
+
+
+main{
+    width: 100%;
+    height: 500px;
+}
+
+main .first{
+    width: 100%;
+    height: 260px;
+    background-color: rgb(242,246,248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 55px;
+}
+
+
+main .first .texx{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+main .first .texx div{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 300ms;
+    gap: 10px;
+}
+
+main .first .texx div:hover{
+    background-color: white;
+    border-bottom: 3px solid #678e3e;
+}
+main .first .texx div:hover i{
+    transform: translateY(-5px);
+}
+main .first .texx div i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(103, 142, 62);
+    font-size: 40px;
+    padding-bottom: 20px;
+    transition: all 300ms;
+}
+main .first .texx div h1{
+    opacity: 0.9;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+main .first .texx div p{
+    width: 260px;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.9;
+    color: rgb(70, 86, 102);
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+/* setion second */
+
+main .second{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+    z-index: -1;
+
+}
+
+main .second .photo{
+    width:467px; 
+    height:311px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid #678e3e;
+    transition: all 300ms;
+    overflow: hidden;
+    position: relative;
+}
+
+main .second .photo div >div{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+}
+
+
+main .second .photo div img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+    z-index: -1;
+}
+
+main .second .photo div:hover img{
+    /* background-image: linear-gradient(rgba(103, 142, 62,0.8),rgba(103, 142, 62,0.3),rgba(103, 142, 62,0.9)) ; */
+    transform: scale(1.1);
+}
+
+main .second .photo div >div{
+    transition: all 300ms;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+main .second .photo div:hover >div{
+    width: 100%;
+    height: 100%;
+    background-color: #678e3e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 14;
+    background-image: linear-gradient(to left,green,green,green);
+    /* transform: scale(1.1); */
+    opacity: 0.3;
+}
+
+
+
+main .second .matn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+main .second .matn h3{
+    /* width: 499px;
+    height: 200px; */
+    font-size: 24px;
+    font-weight: 600;
+    color: #678e3e;
+    display: flex;
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+
+}
+
+main .second .matn h1{
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+main .second .matn p{
+    width: 490px;
+    opacity: 0.9;
+    color: rgb(70, 86, 102);
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+main .second .matn a{
+    height: 25px;
+    background-color: #678e3e;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: all 500ms;
+    padding: 5px;
+}
+
+main .second .matn a:hover{
+    background-color: rgb(190,237,140);
+    color: #678e3e;
+}
+
+
+
+/* third sec */
+
+
+main .third{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(241,245,248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 180px;
+    gap: 10px;
+}
+
+
+main .third div{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .third .ecrit{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+
+main .third .ecrit h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #678e3e;
+    display: flex;
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+main .third .ecrit h1{
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+main .third .ecrit p{
+    width: 370px;
+    opacity: 0.9;
+    color: rgb(70, 86, 102);
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+main .third .ecrit a{
+    height: 25px;
+    background-color: #678e3e;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: all 500ms;
+    padding: 5px;
+}
+
+main .third .ecrit a:hover{
+    background-color: rgb(190,237,140);
+    color: #678e3e;
+}
+
+
+main .third .aks{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+main .third .aks div{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+main .third .aks div img{
+    width: 266px;
+    height: 275px;
+    border-radius: 10px;
+
+}
+
+main .third .aks div h4{
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+main .third .aks div h5{
+    color: #678e3e;
+    font-size: 17px;
+    font-weight: 800;
+
+}
+/* -------------------------------------- */
+main .we{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 10px;
+}
+main .we h3{
+    font-size: 24px;
+    font-weight: 300;
+    color: #678e3e;
+    display: flex;
+    font-family: 'Catamaran', sans-serif;
+    /* letter-spacing: 4px; */
+    word-spacing: 2px;
+}
+
+main .we h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+
+/* new section */
+
+main .quatre{
+    width: 100%;
+    height:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* flex-direction: row; */
+    /* gap: 50px; */
+}
+
+
+
+main .quatre .cart{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 35px;
+    /* padding-top: 10px; */
+    /* height: fit-content; */
+}
+
+main .quatre .cart div{
+    width: 341px;
+    height: 510px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    background-color: rgb(241,245,248);
+    gap: 20px;
+    border-radius: 10px;
+    position: relative;
+    transition: all 200ms;
+}
+
+main .quatre .cart div:hover{
+    transform: scale(1.05);
+}
+
+main .quatre .cart div i{
+    color: #678e3e;
+    /* be tol azafe mikone */
+    box-sizing: content-box;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:rgb(190,237,140);
+    border: 4px solid  rgb(241,245,248);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 23px;
+}
+
+main .quatre .cart div img{
+    width: 341px;
+    height: 268px;
+    border-radius: 10px 10px 0px 0px;
+    /* display: block; */
+    object-fit: cover;
+}
+
+main .quatre .cart div h4{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+main .quatre .cart div p{
+    width: 310px;
+    opacity: 0.9;
+    color: rgb(70, 86, 102);
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+}
+
+
+main .quatre .cart div a{
+    height: 25px;
+    background-color: #678e3e;
+    color: white;
+    letter-spacing: 2px;
+    /* font-weight: 600; */
+    transition: all 500ms;
+    padding: 5px;
+    border-radius: 5px;
+}
+main .quatre .cart div a:hover{
+    background-color: rgb(190,237,140);
+    color: #678e3e;
+}
